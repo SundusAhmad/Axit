@@ -1,0 +1,658 @@
+body{
+
+}
+
+
+/* navbar */
+.navbar-brand
+{
+    height: 60px;
+    padding-top: 0px;
+  margin-top: -5px;
+}
+
+.navbar-right
+{
+    padding-top: 5px;
+}
+/* End navbar */
+
+/* start section2  */
+.top-sec2
+{
+    padding-top: 100px;
+    background-image: url(../images/bc-section2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    opacity: 0.7;
+    position: relative;
+
+
+}
+.top-sec2 h1
+{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.top-sec2 h4
+{
+    color: white;
+    font-size: 45px;
+    font-weight: 200;
+
+
+}
+#btn1
+{
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    color: black;
+    border-radius: 10px;
+    background-color: #cccccc;
+    border-color: transparent;
+
+}
+#btn1:hover
+{
+    background-color: #9d9d9d;
+    color: black;
+    font-weight: bold;
+}
+.left
+{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    right: 50%;
+}
+@media (max-width: 767px) {
+
+    .left-sm
+    {
+        position: absolute;
+        top: 30%;
+        left: 70%;
+        right: 5%;
+    }
+
+
+
+}
+
+@media (max-width: 767px) {
+
+
+
+    .top-sm
+    {
+        height: 1000px;
+
+    }
+
+}
+
+.right
+{
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    right: 5%;
+    height: 320px;
+    width: 320px;
+    border-radius: 15px;
+
+}
+#btn2
+{
+    background-color:darkorange;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 88%;
+    left: 0%;
+    right: 5%;
+    bottom: 5%;
+    height: 50px;
+    width: 320px;
+    border-radius: 0px 0px 15px 15px;
+    border-color: transparent;
+    font-size: 25px;
+}
+
+#btn2:hover
+{
+    background-color: chocolate;
+    color:darkorange ;
+
+}
+
+
+.right-title
+{
+    background-color: #cccccc;
+    border-radius: 15px 15px 0px 0px;
+    width: 320px;
+    height: 50px;
+    position: absolute;
+    left: 0%;
+    color: black;
+    font-size: 20px;
+
+}
+
+
+.right-title p
+{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+form
+{
+    padding-top: 80px;
+}
+
+
+.form-control
+{
+    border: none;
+    box-shadow: none;
+    width: 80%;
+    margin: 0 auto 10px;
+    border-bottom: 1px solid #9d9d9d;
+    margin-bottom: 30px;
+}
+/* End section2  */
+/*  start section social media*/
+.social-media
+{
+border-bottom: solid 1px #9d9d9d;
+}
+.social-media h2
+{
+    font-weight:bold;
+    color: black;
+
+}
+.social-media i
+{
+    margin-right: 40px;
+    font-size: 50px;
+    color: #9d9d9d;
+
+}
+
+.social-media .col-md-7
+{
+
+    margin-top: 40px; margin-left: 95px; float: right; padding-right: 20px; margin-bottom: 5px;
+}
+
+/*  end section social media*/
+/*  start tabs*/
+
+.tabs
+{
+    padding: 50px 0px;
+background-color: #f5f5f5;
+}
+
+.tabs ul{
+    background-color: #333333;
+    width: 100px;
+    border-radius: 10px 10px;
+
+}
+.tabs ul li
+{
+    color: white;
+    border-bottom: solid 1px white;
+    height:110px;
+    line-height: 110px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.tabs ul li:hover
+{
+    background-color: #ff8b38;
+
+}
+
+.tabs .selected
+{
+    background-color: #ff8b38;
+
+}
+.tab-content
+{
+    margin-top: 40px;
+}
+.tab-content p{
+
+    line-height: 27px;
+    margin-right: 10px;
+}
+.tab-content .btn{
+    margin-top: 10px;
+    background-color:#ff8b38;
+}
+.tabs img
+{
+
+    padding-top: 30px;
+}
+
+.left-left-child img
+{
+    box-shadow: 8px 8px 8px   #aaaaaa;
+    height: 350px;
+    margin-top: 100px;
+}
+
+
+
+/*  end tabs*/
+.left-side
+{margin-bottom:100px;
+}
+.left-side p
+{
+    color: #c3c3c5;
+
+}
+.left-right-child
+{
+    padding-top: 100px;
+}
+
+.right-side
+{
+    background-color: #f5f5f5;
+  margin-top: 20px;
+   padding-bottom: 100px;
+}
+
+.right-right-child p{
+    color: #c3c3c5;
+    line-height: 20px;
+}
+.right-right-child
+{
+
+margin-top: 120px;
+}
+
+.right-left-child img
+{
+    margin-left: 70px;
+    margin-top: 100px;
+    box-shadow: 8px 8px 8px   #aaaaaa;
+}
+/*____________________________*/
+
+.why-This
+{
+    margin-top: 50px;
+    height: 1500px;
+
+}
+.Why-This h1
+{
+    font-family: Myriad Pro;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.Why-This h5
+{
+
+    text-align: center;
+    color:#acadaf;
+
+
+}
+.part-two img
+{
+    width: 90px;
+    border: solid 2px #ff8b38;
+    border-radius: 50px;
+    margin-left: 130px;
+}
+
+.part-two h3{
+    font-weight: bolder;
+    margin-left: 70px;
+
+}
+.p-part-two p
+{
+    text-align: center;
+    display: inline-block;
+
+
+
+}
+
+/*________________________________________________________________________________________________________*/
+
+/*start section pricing */
+.pricing
+{
+    background-color: #f5f5f5;
+}
+
+.pricing h1
+{
+    text-align: center;
+    font-family: Myriad Pro;
+    text-transform: uppercase;
+
+    font-weight: bolder;
+}
+
+.pricing h5
+{
+    text-align: center;
+    color:#acadaf;
+
+}
+
+.address-ta
+{
+    border-bottom: solid 2px #cccccc;
+    background-color: black;
+    color: white;
+    padding: 10px 10px  10px 10px ;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.no-ta
+{
+
+
+    background-color: black;
+    color: white;
+    padding: 15px 15px  15px 15px ;
+    text-align: center;
+
+}
+
+.no-ta h2
+{
+    font-family:Raleway ;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.ch-adress
+{
+
+    background-color: black;
+
+    padding: 10px 10px  10px 10px ;
+    text-align: center;
+    border-bottom: solid 4px #ff8b36;
+    font-family: Myriad Pro;
+    font-style: italic;
+
+}
+
+.hover-ta{
+
+
+    text-transform: uppercase;
+   background-color: #ff8b38;
+    color: white;
+    text-align: center;
+
+
+}
+
+
+.ch-adress h5
+{
+    font-size: 8px;
+
+}
+
+.ch1-adress
+{
+    background-color: white;
+    padding: 10px 10px  10px 10px ;
+    text-align: center;
+}
+
+table
+{
+    width: 300px;
+}
+.cont-pricing
+{
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+
+#table1,#table3
+{
+    margin-top: 50px;
+}
+
+/*End section pricing */
+.p-part-three
+{
+padding-right: 20px;
+
+}
+.content-2
+{
+    margin-left:50px;
+
+}
+
+.p-part-three{
+    background-color: #c8c2c2;
+}
+.p-part-three p
+{
+    padding:15px;
+}
+.content-2 img
+{
+    margin: 0px auto;
+
+}
+
+.part-three h4
+{
+    margin-top: 20px;
+}
+
+.part-three h5
+{
+  text-align: left;
+    margin-left: 10px;
+}
+.content-2 .media
+{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+
+/*start desgin section*/
+
+ .Desgin
+ {
+     background-image: url("../images/back-gr.png");
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: 100%;
+padding-bottom: 30px;
+     color: white;
+     text-align: center;
+
+ }
+
+
+#btn3
+{
+    background-color: transparent; border: solid 2px white;
+}
+
+#btn3:hover
+{
+    color: white;
+}
+
+/*End  desgin section*/
+
+/* start contact*/
+
+.cuntact h1
+{
+    text-align: center;
+    text-transform: capitalize;
+}
+.cuntact h5
+{
+
+    text-align: center;
+    color:#9d9e9e;
+}
+
+textarea
+{
+    width: 100px;
+    resize: none;
+}
+
+#btn4
+{
+    background-color: #ff9b51;
+    color: white;
+
+}
+.btn4
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer ul
+{
+list-style-type: none;
+
+}
+
+footer ul li
+{
+    display: inline;
+   margin-left: 20px;
+}
+
+footer
+{
+    text-align: center;
+   padding-top: 8px;
+    margin-top: 50px;
+    background-color: black;
+
+    color: white;
+
+
+}
+
+footer p{
+    margin-left: 15px;
+    color:#9d9e9e; ;
+    font-size: 10px;
+    line-height: 5px;
+}
+
+footer i:hover
+{
+    color: #ff9b51;
+}
+/* end contact */
+
+/* Style the tab */
+.tab {
+    float: left;
+
+    background-color: #f1f1f1;
+    width: 100px;
+
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    height: 100px;
+
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ff8b38;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ff8b38;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
+
+.tabs-img
+{
+    margin-left: -10px;
+}
+.tabcontent h3
+{
+    text-transform: uppercase;
+}
+
+.tabcontent button
+{
+    background-color: #ff8b38;
+}
+
+/*MEdia___________________________________________________________________________________*/
+
+@media (max-width: 767px) {
+
+    .text-center-xm
+    {
+        text-align: center;
+    }
+
+}
